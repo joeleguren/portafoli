@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Activitat 2 - Joel Eguren</title>
+    </head>
+    <body>
+
+        <form>
+            <caption>Formulario de contacto</caption>
+            <fieldset>
+                <label for="modelo">Modelo:</label>  
+                <select id="modelo" name="model">
+                    <option value="" aria-label="modelo" disabled selected>elige modelo</option>
+                    <option value="0">R4</option>
+                    <option value="1">R5</option>
+                    <option value="2">SR1</option>
+                </select>
+                </br>
+                </br>
+
+                <label for="potencia">Potencia máxima:</label>  
+                <input type="number" min="50" max="100" name="potencia" value="50"></input>
+
+                </br>
+                </br>
+
+                <label>Bluetooth:</label>
+
+                </br>
+                <label for="si">Si</label>
+                <input type="radio" id="si" name="bluetooth"></input>
+                </br>
+                <label for="no">No</label>
+                <input type="radio" id="no" name="bluetooth"></input>
+                </label>
+
+                </br>
+                </br>
+
+                <label for="color">Color</label>
+                <input type="color" id="color"></input>
+
+                </br>
+                </br>
+
+                <button type="submit">
+                    Enviar
+                </button>
+            </fieldset>
+        </form>
+        
+        
+    </body>
+</html>
