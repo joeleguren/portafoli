@@ -1,0 +1,6 @@
+.cuadrado {
+    --lado: 15rem;
+    width: calc(2 * var(--lado));
+    height: var(--lado);
+    background-color: #008925;
+}
