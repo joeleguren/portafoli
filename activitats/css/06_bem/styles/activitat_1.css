@@ -1,0 +1,52 @@
+body {
+    background-color: azure;
+}
+
+.header {
+    background-color: rgb(147, 206, 252);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.header__img {
+    width: 100px;
+    margin-right: auto;
+}
+
+.menu {
+    background-color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.menu__a {
+    color: black;
+    margin-left: 20px;
+    background-color: rgb(107, 173, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.form {
+    border-radius: 4px;
+    background: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+    position: relative;
+    margin-left: auto;
+}
+
+.form__boton {
+    margin-right: 30 ;
+    color: white;
+    background-color: rgb(107, 173, 255);
+    border-radius: 5px;
+}
+
+.form__input {
+    border-radius: 5px;
+}
