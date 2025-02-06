@@ -1,0 +1,27 @@
+@font-face {
+    /* Alias que le das para utilizarla */
+    font-family: "TokyoRockstar";
+    /* Origen */
+    src: url("../fonts/TokyoRockstar.ttf") format("woff2");
+    /* No bloquea la carga del texto. Cuando se descargue la tipografía se aplicará */
+    font-display: swap;
+}
+
+@font-face {
+    /* Alias que le das para utilizarla */
+    font-family: "NCLKerihMoady-Regular";
+    /* Origen */
+    src: url("../fonts/NCLKerihMoady-Regular.ttf") format("woff2");
+    /* No bloquea la carga del texto. Cuando se descargue la tipografía se aplicará */
+    font-display: swap;
+}
+
+.font1 {
+    font-display: swap;
+    font-family: "NCLKerihMoady-Regular";
+}
+
+.font2 {
+    font-display: swap;
+    font-family: "TokyoRockstar";
+}
