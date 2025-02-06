@@ -1,0 +1,113 @@
+:root {
+    --vermell: rgb(228, 0, 0);
+    --borders: rgba(190, 190, 190, 0.8);
+    --text_color1: rgba(45, 45, 45, 0.837);
+    --text_color2: rgba(35, 35, 35, 0.906);
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+    border-top: 6.5px solid var(--borders);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    line-height: 1.6; 
+    
+}
+
+
+.header {
+    padding: 20px;
+    border-bottom: 2px solid var(--borders);
+}
+
+.content {
+    color: whitesmoke;
+}
+
+
+.section {
+    padding-top: 30px;
+    background-color: whitesmoke;
+}
+
+.intro_article {
+    padding: 30px;
+
+}
+
+.article {
+    margin: 30px;
+    border-bottom: 2px solid var(--borders);
+}
+
+.article__1 {
+    margin: 30px;
+    padding-bottom: 100px;
+}
+
+
+.welcome {
+    color: var(--vermell);
+    padding-bottom: 3px;
+    border-bottom: 2px solid var(--borders);
+    margin-left: 3px;
+}
+
+.welcome--readmore {
+    color: var(--vermell);
+    padding-bottom: 3px;
+    border-bottom: 2px solid var(--borders);
+    margin-left: 7px;
+}
+
+.name {
+    color: white;
+    background: var(--vermell);
+    padding: 5px;
+}
+
+.about-me {
+    color: var(--vermell);
+}
+
+.h1-simple {
+    font-weight: 100;
+    color: var(--vermell);
+}
+
+.h1-simple__blog {
+    font-weight: 900;
+    font-size: 29px;
+}
+
+.grey-em {
+    color: grey;
+}
+
+.p-intro {
+    font-size: 25px;
+    font-weight: 100;
+    color: var(--text_color);
+}
+
+.h2-writing {
+    font-size: 27px;
+    font-weight: 100;
+    color: var(--text_color);
+}
+
+p {
+    color: var(--text_color2);
+    font-size: 17px;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+.footer__p {
+    color: grey;
+    font-size: 14px;
+}

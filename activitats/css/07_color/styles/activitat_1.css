@@ -1,0 +1,17 @@
+.yellow {
+    color: rgb(215, 215, 0);
+}
+
+.background-blue {
+    background: rgba(0, 61, 166, 0.841);
+    color:white;
+}
+
+.simple-blue {
+    color: rgba(0, 61, 166, 0.841);;
+}
+
+.background-green {
+    background: rgb(0, 163, 0);
+    color:white;
+}
