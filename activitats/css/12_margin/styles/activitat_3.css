@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #FF5645;
+}
+
+.header {
+    width: 100%;
+    height: 70%; 
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.title {
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-inline: 30%;
+}
+
+
+.a1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin: 50px;
+    margin-inline: 42%;
+    background-color: #FF5645;
+    padding-block: 10px;
+    padding-inline: 5px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.a2 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin: 30px;
+    margin-inline: 44%;
+    background-color: white;
+    padding-block: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding-inline: 5px;
+}
+
+.section {
+    padding-block: 5%;
+}
+
+.line {
+    margin-inline: 48%;
+    background-color: #FF5645;
+    width: 40px;
+    height: 2.5px;
+}
+
+.h2 {
+    margin-bottom: 13px;
+}
+
+.line--white {
+    margin-inline: 48%;
+    background-color: white;
+    width: 40px;
+    height: 2.5px;
+    border-radius: 1px; 
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.824);
+    margin-inline: 20%;
+}
+
+.text--2 {
+    font-size: 0.8rem;
+    color: #FFCBBE;
+    margin-inline: 25%;
+}

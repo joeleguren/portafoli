@@ -1,0 +1,40 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text1 {
+    margin: 3%;
+    margin-inline: 30%;
+    text-align: center;
+    background-color: #DDE8E6;
+    word-spacing: 3px;
+    padding-bottom: 7px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 3%;
+    margin-inline: 30% 50%;
+    font-size: 3rem;
+}
+
+.text2 {
+    line-height: 1.5;
+    text-align: left;
+    font-size: 0.8rem;
+    margin: 3%;
+    margin-inline: 30% 42%;
+}
+
+.button {
+    padding: 12px;
+    padding-inline: 20px;
+    border: 1.9px solid #838383;
+    font-size: 0.8rem;
+    margin-inline: 30% 59%;
+    border-radius: 20px;
+    text-align: center;
+}
