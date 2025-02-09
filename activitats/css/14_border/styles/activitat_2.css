@@ -1,0 +1,5 @@
+img {
+    width: 200px;
+    border-inline: 10px dashed #FFA500;
+    border-block: 10px solid #FFA500;;
+}

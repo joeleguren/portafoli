@@ -1,0 +1,6 @@
+img {
+    width: 200px;
+    padding: 20px;
+    border: 10px solid;
+    border-image: linear-gradient(#00FEFE, #FE0000) 1;
+}
