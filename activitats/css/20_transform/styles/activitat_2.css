@@ -1,0 +1,14 @@
+.modal {
+    margin: 200px;
+    width: 200px;
+    height: 200px;
+    padding: 20;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &:hover {
+        transform: scale(2);
+    }
+}

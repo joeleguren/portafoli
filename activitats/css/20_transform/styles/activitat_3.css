@@ -1,0 +1,24 @@
+main {
+    display: flex;
+}
+
+.red-circle {
+    margin: 50px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.blue-circle {
+    filter: opacity(0.5);
+    margin: 50px;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    &:hover {
+        transform: translateX(-300px);
+        transition-duration: 2.5s;
+    }
+}
