@@ -1,0 +1,85 @@
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid #DBD9D2;
+    margin-left: 5%;
+    padding-inline: 35px;
+    padding-block: 5px 15px;
+    width: 190px;
+    align-items: center;
+}
+
+article {
+    margin-block: 40px;
+}
+
+.article--2 {
+    margin-block: 20px;
+}
+
+.article--3 {
+    margin-block: 10px;
+    
+}
+
+.text2 {
+    color: #76716ed7;
+    font-weight: 700;
+}
+
+.title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+p {
+    color: #363636;
+    font-size: 0.9rem;
+}
+
+.text {
+    margin: 0;
+    color: #535252;
+    font-size: 0.8rem;
+}
+
+.price {
+    margin: 0;
+    font-family: Times, serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.text--blue {
+    margin-block: 4px 20px;
+    color: #007C89;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.button {
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+    padding: 11px;
+    padding-inline: 30px;
+    background-color: #007C89;
+    font-weight: 400;
+    width: 120px;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    padding-bottom: 18px;
+}
+
+li::before {
+    content: '✔'; 
+    color: teal; 
+    font-size: 1.2em; 
+    margin-right: 10px;
+  }
