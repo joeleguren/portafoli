@@ -1,0 +1,56 @@
+main {
+    display: flex;
+}
+
+.reloj {
+    margin-top: 50px;
+    margin-inline: auto;
+    background-image: url(../img/reloj.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+}
+
+.aguja-segundos {
+    bottom: 50%;
+    left: 50%;
+    position: absolute;
+    width: 3px;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    transform-origin: 50% 100%;
+    animation: animacion-agujas 60s infinite linear;
+}
+
+.aguja-minutos {
+    bottom: 50%;
+    left: 50%;
+    position: absolute;
+    width: 3px;
+    height: 110px;
+    background-color: rgb(255, 0, 0);
+    transform-origin: 50% 100%;
+    animation: animacion-agujas 3600s infinite linear;
+}
+
+.aguja-horas {
+    bottom: 50%;
+    left: 50%;
+    position: absolute;
+    width: 3px;
+    height: 80px;
+    background-color: rgb(7, 207, 0);
+    transform-origin: 50% 100%;
+    animation: animacion-agujas 43200s infinite linear;
+}
+
+@keyframes animacion-agujas {
+    from { 
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(360deg); 
+    }
+
+}
