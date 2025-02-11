@@ -1,0 +1,29 @@
+main {
+    display: flex;
+}
+
+.content {
+    margin-top: 50px;
+    margin-inline: auto;
+}
+
+img {
+    width: 400px;
+}
+
+img:hover {
+    animation-name: animacion-rotar;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-duration: 0.3s;
+}
+
+@keyframes animacion-rotar {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(45deg);
+    }
+}

@@ -1,0 +1,36 @@
+main {
+    display: flex;
+}
+
+.content {
+    display: block;
+    margin-top: 50px;
+    margin-inline: auto;
+    background-image: url(../img/wall.jpg);
+    width: 700px;
+    height: 700px;
+    
+}
+
+.contenedor-imagen {
+    perspective: 500px;
+    overflow: hidden;
+    height: 700px;
+}
+
+.floor {
+    transform: translateX(-60%) rotateX(60deg);
+    transform-origin: top;
+    width: 2000px;
+    top: 400px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.oveja {
+    filter: drop-shadow(-8rem -7rem 0.2rem rgb(0, 0, 0));
+    left: 50%;
+    width: 190px;
+    position: absolute;
+    top: 50%;
+}
