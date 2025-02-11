@@ -1,0 +1,25 @@
+main {
+    display: flex;
+}
+
+.pendulo {
+    margin-top: 50px;
+    margin-inline: auto;
+}
+
+img {
+    width: 300px;
+    transform-origin: top center;
+    animation: animacion-agujas 1s infinite alternate;
+}
+
+
+@keyframes animacion-agujas {
+    0% { 
+        transform: rotate(-35deg); 
+    }
+    100% {
+        transform: rotate(35deg); 
+    }
+
+}
