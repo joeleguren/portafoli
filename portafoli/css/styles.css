@@ -149,11 +149,12 @@ main {
     display: flex;
     margin-top: 10px;
     margin-inline: 3% 7%;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .intro-section-index {
     margin-top: 70px;
+    margin-bottom: 30px;
     margin-inline: 3% 7%;
     display: flex;
     overflow: auto;
@@ -224,6 +225,7 @@ main {
       0 12.5px 10px rgba(0, 0, 0, 0.06),
       0 22.3px 17.9px rgba(0, 0, 0, 0.072)
     ; 
+    margin-bottom: 30px;
 }
 
 .button {
@@ -271,6 +273,10 @@ main {
     justify-content: center;
 }
 
+.ul-css-2 {
+    margin-inline: 10%;
+}
+
 .sub-content {
     width: 100%;
 }
@@ -284,7 +290,7 @@ main {
 }
 
 .div-activitats {
-    margin-right: 20%;
+    margin-right: 10%;
 }
 
 .leccion-title {
@@ -359,7 +365,7 @@ main {
 .logo-footer {
     width: 50px;
     margin: 10px;
-    margin-left: 4px;
+    margin-inline: 2px;
     transition: transform 0.2s ease-in-out;
 }
 
