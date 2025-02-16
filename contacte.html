@@ -29,13 +29,39 @@
         </div>
     </header>
     <main>
-        <section class="section-esbos">
-            <div class="content">
-                <div class="sub-content">
-                    <form action="mailto:joeleguren7@gmail.com">
-
-                        <button type="submit">Enviar</button>
-                    </form>
+        <section class="div-contact">
+            <div class="div-contact-left">
+                <form class="form-contact" action="mailto:joeleguren7@gmail.com">
+                    <legend><span class="blue-span">&lt;/&gt;</span> Contacta amb mi</legend>
+                    <label>
+                        <input required type="text" name="nom" placeholder="Nom*">
+                    </label>
+                        <br/>
+                        <br/>
+                    <label>
+                        <input required type="text" name="email" placeholder="Email*">
+                    </label>
+                        <br/>
+                        <br/>
+                    <label>
+                        <textarea required name="missatge" placeholder="Missatge*"></textarea>
+                    </label>
+                    <br/>
+                        <br/>
+                    <button type="submit">Envia</button>
+                </form>
+            </div>
+            <div class="div-contact-right">
+                <div class="box-contact">
+                    <h2 class="sub-title"><span class="orange-span">{}</span> Si t'agrada el que veus, és el moment:</h2>
+                    
+                    <ul class="contact-ul">
+                        <li class="contact-text"><img src="portafoli/imatges/telefon.png" alt="">+34-621251735 </li>
+                        <li class="contact-text"><img src="portafoli/imatges/correo.png" alt="">joeleguren7@gmail.com</li>
+                    </ul>
+                    <div class="div-button">
+                        <a class="button" target="_blank" href="portafoli/pdf/CV2.pdf">CV</a>
+                    </div>
                 </div>
             </div>
         </section> 
