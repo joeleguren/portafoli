@@ -12,21 +12,8 @@
     --black2: #353535;
 }
 
-@font-face {
-    /* Alias que le das para utilizarla */
-    font-family: "October";
-    /* Origen */
-    src: url("October\ Wish\ .otf") format("woff2");
-    /* No bloquea la carga del texto. Cuando se descargue la tipografía se aplicará */
-    font-display: swap;
-}
-
-/* https://coolors.co/03256c-2541b2-1768ac-06bee1-ffffff */
-
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-family: consolas;
-    background: linear-gradient(to right, white, #06BEE1);
+    font-family: consolas, Arial, Helvetica, sans-serif;
     background: var(--light-grey);
     min-height: 100vh;
     margin: 0;
@@ -53,6 +40,13 @@ header {
     padding: 8px;
     border-radius: 15px;
     padding-left: 3%;
+}
+
+.separador {
+    background-color: var(--grey);
+    width: 100%;
+    height: 1px;
+    margin-block: 50px;
 }
 
 .h1-header {
@@ -143,6 +137,23 @@ main {
     margin-inline: 3% 7%;
 }
 
+.aboutme-section {
+    margin-inline: 1% 1%;
+}
+
+.aboutme-section article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme-section article .title {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+
 .img-esbos {
     width: 100%;
 }
@@ -164,6 +175,11 @@ main {
 
 .title {
     font-size: 2.3rem;   
+}
+
+.title-2 {
+    font-size: 2.3rem;   
+    margin-bottom: 0;
 }
 
 
@@ -243,18 +259,28 @@ main {
       0 22.3px 17.9px rgba(0, 0, 0, 0.072)
     ;
     margin-bottom: 100px;
-    padding: 50px;
+    padding-inline: 50px;
+    padding-block: 20px;
     padding-top: 30px;
     overflow: auto;
     justify-content: center;
 }
 
 .div-button {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    padding-top: 30px;
     width: 100%;
-
 }
+
+.div-button-2 {
+    display: flex;
+    padding-left: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
 
 
 .img-joel {
@@ -268,6 +294,40 @@ main {
       0 22.3px 17.9px rgba(0, 0, 0, 0.072)
     ; 
     margin-bottom: 30px;
+}
+
+.img-projectes {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.4s ease-in-out;
+}
+
+
+.project {
+    position: relative;
+    display: inline-block;
+}
+
+.project-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: auto;
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+}
+
+.project:hover .img-projectes {
+    filter: brightness(80%);
+    transform: scale(1.1);
+}
+
+.project:hover .project-title {
+    opacity: 1;
 }
 
 .button {
@@ -299,6 +359,7 @@ main {
 
 .content {
     display: flex;
+    gap: 50px;
     margin-inline: 4%;
     width: 100%;
     background: linear-gradient(to right, var(--grey3), white);
@@ -310,7 +371,7 @@ main {
       0 12.5px 10px rgba(0, 0, 0, 0.06),
       0 22.3px 17.9px rgba(0, 0, 0, 0.072)
     ;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     padding: 50px;
     overflow: auto;
     justify-content: center;
@@ -482,6 +543,29 @@ main {
     width: 50px;
     margin-right: 14px;
 }
+
+.tech-table {
+    width: 80%;
+    margin: 50px auto;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    overflow: auto;
+}
+
+.tech-table td {
+    padding: 20px;
+}
+
+.tech-table img {
+    width: 170px;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.tech-table img:hover {
+    transform: scale(1.1);
+}
+
 
 .footer {
     display: flex;
